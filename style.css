@@ -77,7 +77,7 @@ input[type=number]:focus {
 
   @media screen and (max-width: 767px) { 
     section {
-        width: 300px;
+        width: 340px;
         margin: auto;
         
     }
