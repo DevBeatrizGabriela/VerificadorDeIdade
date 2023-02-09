@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    background-color: rgb(78, 33, 114);
+    font: 200 14px 'Poppins', arial;
+    text-align: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    
+    width: 440px;
+    margin: auto;
+    
+}
+
+.form {
+    background: white;
+    border-radius: 8px;
+    padding: 11px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.349);
+}
+
+#res {
+    margin-top: 2em;
+    background: white;
+    border-radius: 8px;
+    padding: 10px 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.349);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] {
+   outline: none;
+   transition: all 0.3s;
+   border: 2px solid rgb(78, 33, 114);
+   background-color: transparent;
+   border-radius: 20px;
+   color: black;
+   padding: 3px 0 3px 6px;
+   margin-left: 5px;
+}
+
+input[type=number]:focus {
+    border: 2px solid rgb(6, 89, 167);
+    background-color: transparent;
+ }
+
+ input[type=button] {
+    border: none;
+    background-color: rgb(78, 33, 114);
+    border-radius: 20px;
+    color: white;
+    font: 600 15px 'Poppins', arial;
+    padding: 6px 2rem;
+    transition: all 0.2s;
+ }
+ 
+ input[type=button]:hover {
+     background-color: rgb(6, 89, 167);
+    
+  }
+
